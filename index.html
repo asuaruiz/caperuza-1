@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Caperuza</title>
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/logo.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '1135583429895282',
+				xfbml      : true,
+				version    : 'v2.8'
+			});
+		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>x
+	<div class="container-fluid fondo-app">
+		<div class="row fondo-logo text-center">
+			<img class="logo" src="img/logo.png" alt="">
+			<div class="fb-login-button fixed" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="true"></div>
+		</div>
+	</div>
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				
+			</div>
+		</footer>	
+
+
+
+
+		<script src='js/main.js'></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+	</body>
+	</html>

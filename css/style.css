@@ -1,0 +1,92 @@
+/*ESTILOS HOME*/
+.fondo-app{
+	/*background-color: rgb(244,180,185);*/
+		background-image: url("../img/fondo_pag_1-06-06.png");
+
+}
+.fixed{background-image: url("../img/fondo_pag_1-06.png");
+background-size: 100%;
+background-repeat: no-repeat;
+position: fixed;
+bottom: 0;
+}
+.logo{
+	height: 100vh;
+}
+/*ESTILOS ESCENARIOS*/
+.fondo-modos{
+	background-image: url(../img/Fondo_modos-17.png);
+}
+.seccion-abuelitas{
+	height: 30vh;
+	border-radius: 25px;
+	margin-bottom: 2%;	
+	background-image: url(../img/bot-modo_ruta-pasivo.png); 
+}
+.seccion-abuelitas:hover{
+	height: 30vh;
+	border-radius: 25px;
+	margin-bottom: 2%;	
+	background-image: url(../img/bot-modo_ruta-activo.png);
+}
+.seccion-caperuza{
+	height: 30vh;
+	border-radius: 25px;
+	margin-bottom: 2%;	
+	background-image: url(../img/bot-modo_CP-pasivo.png); 
+}
+.seccion-caperuza:hover{
+	height: 30vh;
+	border-radius: 25px;
+	margin-bottom: 2%;	
+	background-image: url(../img/bot-modo_CP-activo.png);
+}
+.seccion-cazadora{
+	height: 30vh;
+	border-radius: 25px;
+	margin-bottom: 2%;	
+	background-image: url(../img/bot-modo_CazL-pasivo.png);
+}
+.seccion-cazadora:hover{
+	height: 30vh;
+	border-radius: 25px;
+	margin-bottom: 2%;
+	background-image: url(../img/bot-modo_CazL-activo.png);
+}
+img{
+	max-height: 100%;
+	margin: 0 auto;
+}
+/*ESTILOS SELECT-ABUELITAS*/
+.body-select{
+	background-image: url("../img/fondo_pag_1-06-06.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: white; 
+}
+.form-horizontal{
+	margin-top: 5%;
+}
+.btn-default{
+	background-color: #9f9033;
+	border-color: #9f9033;
+	color: white;
+}
+.btn-default:hover{
+	background-color: #89792e;
+	border-color: #89792e;
+	color: white;
+}
+/*ESTILOS SELECT-CAZADORAS*/
+.body-cazadora{
+	background-image: url("../img/fondo_pag_1-06-06.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white; 
+}
+.cazadora{
+	height: 50vh;
+}
+.cabana{
+	height: 30vh;
+}
