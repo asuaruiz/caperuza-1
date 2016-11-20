@@ -1,7 +1,7 @@
 /*ESTILOS HOME*/
 .fondo-app{
 	/*background-color: rgb(244,180,185);*/
-		background-image: url("../img/fondo_pag_1-06-06.png");
+	background-image: url("../img/fondo_pag_1-06-06.png");
 
 }
 .fixed{background-image: url("../img/fondo_pag_1-06.png");
@@ -79,14 +79,12 @@ img{
 }
 /*ESTILOS SELECT-CAZADORAS*/
 .body-cazadora{
-	background-image: url("../img/fondo_pag_1-06-06.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: white; 
+	background-image: url("../img/fondo_mapa.png");
 }
 .cazadora{
-	height: 50vh;
+	height: 60vh;
+	margin-left: 100px;
 }
-.cabana{
-	height: 30vh;
+.demo-mapa{
+	margin-left: 200px;
 }
